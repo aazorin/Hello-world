@@ -1,0 +1,18 @@
+(lldb) po Alamofire.request(urlPath)
+2018-05-20 21:24:32.897858+0500 VK_ZAA[37508:2536809] CredStore - performQuery - Error copying matching creds.  Error=-25300, query={
+    class = inet;
+    "m_Limit" = "m_LimitAll";
+    ptcl = htps;
+    "r_Attributes" = 1;
+    sdmn = "api.vk.com";
+    srvr = "api.vk.com";
+    sync = syna;
+}
+$ curl -v \
+	-b "remixlang=3" \
+	-H "Accept-Language: en;q=1.0, ru-RU;q=0.9" \
+	-H "User-Agent: VK_ZAA/1.0 (ZorinAA.VK-ZAA; build:1; iOS 11.3.0) Alamofire/4.7.2" \
+	-H "Accept-Encoding: gzip;q=1.0, compress;q=0.5" \
+	"https://api.vk.com/method/friends.get?access_token=935e68243a8bb13ace2b6aacb461b5d3653e4f6d0db5081f0a5e95b014fdfe366440c08bfbc442ab0e543&v=5.74&fields=nickname,photo_50"
+
+(lldb) 
