@@ -16,3 +16,4 @@ $ curl -v \
 	"https://api.vk.com/method/friends.get?access_token=935e68243a8bb13ace2b6aacb461b5d3653e4f6d0db5081f0a5e95b014fdfe366440c08bfbc442ab0e543&v=5.74&fields=nickname,photo_50"
 
 (lldb) qqqqqqqqqqq
+Edit pc
